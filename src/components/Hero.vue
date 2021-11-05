@@ -53,7 +53,7 @@
 .stars{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: 95;
@@ -112,11 +112,12 @@
   color: #000000;
   font-weight: bold;
   margin: 52px 0 32px 0 !important;
-  animation: dropIn 0.5s ease-in;
+  animation: dropIn 1s ease-in;
 }
 .desc{
   font-size: 24px;
   margin-bottom: 24px !important;
+  animation: dropIn 1.2s ease-in;
 }
 .mywork{
   font-size: 20px;
@@ -127,7 +128,7 @@
   font-weight: bold;
   border: none;
   margin-top: 24px;
-  animation: dropIn 0.5s ease-in;
+  animation: dropIn 1.4s ease-in;
 }
 .mywork:hover{
     color: #6935DA;
