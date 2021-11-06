@@ -1,4 +1,5 @@
-<svg width="1369" height="693" viewBox="0 0 1369 693" fill="none" xmlns="http://www.w3.org/2000/svg">
+<template>
+    <svg width="1369" height="693" viewBox="0 0 1369 693" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:color-dodge">
 <circle cx="832.962" cy="386.962" r="3.96233" fill="url(#paint0_linear)"/>
 </g>
@@ -18,7 +19,7 @@
 <circle cx="554.962" cy="3.96233" r="3.96233" fill="url(#paint5_linear)"/>
 </g>
 <g style="mix-blend-mode:color-dodge">
-<circle cx="1219.96" cy="322.962" r="3.96233" fill="url(#paint6_linear)"/>
+<circle cx="1230.96" cy="322.962" r="3.96233" fill="url(#paint6_linear)"/>
 </g>
 <g style="mix-blend-mode:color-dodge">
 <circle cx="1291.96" cy="117.962" r="3.96233" fill="url(#paint7_linear)"/>
@@ -79,18 +80,6 @@
 <circle cx="433" cy="486" r="15" fill="url(#paint27_linear)"/>
 <circle cx="725" cy="103" r="11" fill="url(#paint28_linear)"/>
 <circle cx="1248" cy="411" r="11" fill="url(#paint29_linear)"/>
-<g style="mix-blend-mode:overlay">
-<path d="M735.008 610.933C732.176 613.765 728.116 614.297 725.94 612.121C723.764 609.945 724.296 605.885 727.128 603.053C729.961 600.22 763.121 574.94 763.121 574.94C763.121 574.94 737.841 608.1 735.008 610.933Z" fill="url(#paint30_linear)"/>
-</g>
-<g style="mix-blend-mode:overlay">
-<path d="M844.335 116.656C842.302 118.688 839.389 119.07 837.827 117.508C836.266 115.947 836.648 113.034 838.68 111.001C840.713 108.969 864.508 90.8273 864.508 90.8273C864.508 90.8273 846.367 114.623 844.335 116.656Z" fill="url(#paint31_linear)"/>
-</g>
-<g style="mix-blend-mode:overlay">
-<path d="M815.27 272.015C811.51 275.775 806.12 276.482 803.231 273.593C800.342 270.704 801.048 265.314 804.809 261.554C808.569 257.793 852.593 224.231 852.593 224.231C852.593 224.231 819.03 268.255 815.27 272.015Z" fill="url(#paint32_linear)"/>
-</g>
-<g style="mix-blend-mode:overlay">
-<path d="M1336.27 381.015C1332.51 384.775 1327.12 385.482 1324.23 382.593C1321.34 379.704 1322.05 374.314 1325.81 370.554C1329.57 366.793 1373.59 333.231 1373.59 333.231C1373.59 333.231 1340.03 377.255 1336.27 381.015Z" fill="url(#paint33_linear)"/>
-</g>
 <defs>
 <linearGradient id="paint0_linear" x1="832.962" y1="383" x2="832.962" y2="390.925" gradientUnits="userSpaceOnUse">
 <stop stop-color="#D6E80A" stop-opacity="0"/>
@@ -230,3 +219,17 @@
 </linearGradient>
 </defs>
 </svg>
+
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>
+
+<style scoped>
+    svg{
+        animation: appear 2s linear;
+    }
+</style>
