@@ -123,8 +123,8 @@ export default {
   animation-delay: 3.3s;
 }
 .commet3{
-  right: 8%;
-  top: 15%;
+  right: -5%;
+  top: 5%;
   animation-delay: 3.8s;
 }
 .commet4{
