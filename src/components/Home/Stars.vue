@@ -222,12 +222,6 @@
 
 </template>
 
-<script>
-    export default {
-        
-    }
-</script>
-
 <style scoped>
     svg{
         animation: appear 2s linear;

@@ -6,12 +6,6 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: 'RedStar'
-    }
-</script>
-
 <style scoped>
 
 .circle1{
