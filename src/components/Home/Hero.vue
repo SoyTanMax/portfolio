@@ -238,6 +238,7 @@ a{
     height: 100vh;
     padding-right: 24px;
     padding-left: 24px;
+    overflow: hidden;
   }
   .hero-body{
     display: flex;
