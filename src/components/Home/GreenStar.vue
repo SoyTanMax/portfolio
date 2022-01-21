@@ -8,12 +8,6 @@
     </div>   
 </template>
 
-<script>
-    export default {
-        name: 'GreenStar'
-    }
-</script>
-
 <style scoped>
 
 .circle1{

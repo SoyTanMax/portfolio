@@ -11,11 +11,12 @@
       <Commet class="commet commet4"/>
       <Commet class="commet commet5"/>
       <Stars class="stars" />
-      <img class="stars2" src="@/assets/stars2.svg" alt="">
       <GreenStar class="green" />
       <RedStar class="red"/>
       <img class="planet" src="@/assets/planet.svg" alt="">
-      <Navbar class="navbar" />
+      <div class="hero-head">
+        <Navbar class="navbar" />
+      </div>
       <div class="hero-body">
           <p class="heading has-text-white block">{{ heading }}</p>
           <p class="has-text-white desc">I'm a passionate UX / UI Desginer and a Frontend Web Developer from Mexico.</p>
@@ -141,8 +142,6 @@ export default {
 .hero{
     position: relative;
     height: 100vh;
-    padding-right: 96px;
-    padding-left: 96px;
 }
 .navbar{
   position: relative;
@@ -152,6 +151,8 @@ export default {
     z-index: 98;
     padding: 0;
     max-width: 50%;
+    padding-right: 96px;
+    padding-left: 96px;
 }
 .columns{
   margin-top: 48px;
@@ -200,31 +201,50 @@ a{
   .stars{
     display: none;
   }
-  .stars2{
-    display: flex;
-    position: absolute;
-    z-index: 95;
-    width: 100%;
+  .commet1{
+  right: -60%;
+  top: 20%;
+  animation-delay: 3s;
+  }
+  .commet2{
+    right: 5%;
+    top: 20%;
+    animation-delay: 3.3s;
+  }
+  .commet3{
+    right: -5%;
+    top: 5%;
+    animation-delay: 3.8s;
+  }
+  .commet4{
+    left: -20%;
+    top: -10%;
+    animation-delay: 3s;
+  }
+  .commet5{
+    left: 35%;
+    top: 0%;
+    animation-delay: 3.5s;
   }
   .astronaut{
       position: absolute;
       z-index: 97;
-      bottom: 3%;
+      top: 55%;
       left: 25%; 
       width: 190px;
   }
   .green{
       position: absolute;
       width: 70px;
-      left: 85%;
-      top: 65%;
+      left: 70%;
+      top: 75%;
       z-index: 95;
   }
   .red{
       position: absolute;
       width: 60px;
       left: 2%;
-      bottom: 40%;
+      bottom: 35%;
       z-index: 95;
   }
   .planet{
@@ -235,9 +255,8 @@ a{
       z-index: 95;
   }
   .hero{
-    height: 100vh;
-    padding-right: 24px;
-    padding-left: 24px;
+    margin: 0; 
+    height: 100vh; 
     overflow: hidden;
   }
   .hero-body{
@@ -245,7 +264,9 @@ a{
     flex-direction: column;
     align-items: center;
     max-width: 100vh;
-    padding: 96px 0 0;
+    padding: 64px 0 0;
+    padding-right: 24px;
+    padding-left: 24px;
   }
   .columns{
     display:flex;

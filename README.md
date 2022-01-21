@@ -1,4 +1,4 @@
-# portfolio-2
+# Max López - UX/UI Designer & Web Developer
 
 ## Project setup
 ```
