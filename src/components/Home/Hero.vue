@@ -19,10 +19,10 @@
       </div>
       <div class="hero-body">
           <p class="heading has-text-white block">{{ heading }}</p>
-          <p class="has-text-white desc">I'm a passionate UX / UI Desginer and a Frontend Web Developer from Mexico.</p>
+          <p class="has-text-white desc">I'm a passionate UX / UI Desginer and a Frontend Web Developer from México 🇲🇽.</p>
           <router-link :to="{name: 'Home'}">
               <button class="button mywork is-uppercase">
-                  my work
+                  Contact me
                   <svg class="w-6 h-6 arrow" fill="none" stroke="#6935DA" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </button>
           </router-link>
@@ -151,8 +151,8 @@ export default {
     z-index: 98;
     padding: 0;
     max-width: 50%;
-    padding-right: 96px;
-    padding-left: 96px;
+    padding-right: var(--padding-desktop);
+    padding-left: var(--padding-desktop);
 }
 .columns{
   margin-top: 48px;
@@ -265,8 +265,8 @@ a{
     align-items: center;
     max-width: 100vh;
     padding: 64px 0 0;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: var(--padding-mobile);
+    padding-left: var(--padding-mobile);
   }
   .columns{
     display:flex;

@@ -3,8 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+:root{
+  --padding-desktop: 96px;
+  --padding-mobile: 24px;
+}
+
 svg{
     overflow: visible;
+}
+html {
+  scroll-behavior: smooth;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes pop {

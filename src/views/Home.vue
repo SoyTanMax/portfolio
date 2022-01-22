@@ -1,6 +1,6 @@
 <template>
   <Hero />
-  <Projects />
+  <Projects id="portfolio"/>
 </template>
 
 <script>

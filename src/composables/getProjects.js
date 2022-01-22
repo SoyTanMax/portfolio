@@ -1,4 +1,4 @@
-import { collection, getDocs, orderBy, query } from '@firebase/firestore'
+import { collection, getDocs, query, orderBy } from '@firebase/firestore'
 import {ref} from 'vue'
 import { db } from '../services/firebase'
 
@@ -8,7 +8,7 @@ const getProjects = () => {
 
     const load = async () => {
       try{
-        const q = query(collection(db, 'projects'))
+        const q = query(collection(db, 'projects'), orderBy("number", "asc"))
         const res = await getDocs(q);
         projects.value = res.docs.map(doc => {
           return {...doc.data(), key: doc.id}
